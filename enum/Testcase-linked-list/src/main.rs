@@ -46,6 +46,8 @@ impl List {
             Cons(head, ref tail) => {
                 // `format!` is similar to `print!`, but returns a heap
                 // allocated string instead of printing to the console
+                println!("head: {}", head);
+                // println!("tail-stringify: {}", tail.stringify());
                 format!("{}, {}", head, tail.stringify())
             }
             Nil => {
