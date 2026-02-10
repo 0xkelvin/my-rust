@@ -28,7 +28,7 @@ fn main() {
     let number = Either::Num(y);
 
     println!("x is borrowed in {:?}", single);
-    println!("x and y are borrowed in {:?}", double");
+    println!("x and y are borrowed in {:?}", double);
     println!("x is borrowed in {:?}", reference);
     println!("y is not borrowed in {:?}", number);
 }
